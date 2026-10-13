@@ -1,0 +1,33 @@
+# Competition / local data
+data/
+*.csv
+*.xlsx
+*.xls
+*.parquet
+
+# Model artifacts
+checkpoints/
+outputs/
+submissions/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Secrets
+.env
+.env.*
+*.key
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store

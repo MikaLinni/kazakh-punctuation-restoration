@@ -1,0 +1,29 @@
+model:
+  name: xlm-roberta-large
+  lstm_hidden: 256
+  lstm_layers: 1
+  dropout: 0.1
+  question_feature_dim: 3
+
+sequence:
+  max_length: 256
+  stride: 128
+
+training:
+  batch_size: 8
+  gradient_accumulation: 4
+  epochs: 5
+  learning_rate: 0.00002
+  head_lr_multiplier: 5.0
+  weight_decay: 0.01
+  warmup_ratio: 0.10
+  max_grad_norm: 1.0
+  focal_gamma: 2.0
+  class_weights: [0.05, 1.5, 2.5, 20.0]
+  seed: 42
+
+labels:
+  - O
+  - COMMA
+  - PERIOD
+  - QUESTION
