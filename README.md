@@ -37,7 +37,7 @@ Illustrative example:
 **Restored text**
 
 ```text
-Бүгін ауа райы жақсы, бірақ кешке жаңбыр жаууы мүмкін. Сен қолшатыр алдың ба?
+бүгін ауа райы жақсы, бірақ кешке жаңбыр жаууы мүмкін. сен қолшатыр алдың ба?
 ```
 
 The example above is created for demonstration and is not taken from the hackathon dataset.
@@ -65,16 +65,6 @@ The example above is created for demonstration and is not taken from the hackath
 </p>
 
 The core architecture combines a pretrained transformer encoder with a bidirectional LSTM and a token-level classification head.
-
-```text
-Transformer encoder
-        +
-Bidirectional LSTM
-        +
-Kazakh-specific linguistic features
-        +
-Token classification head
-```
 
 The implemented model supports both multilingual and Kazakh-specific transformer backbones.
 
@@ -272,8 +262,8 @@ kazakh-punctuation-restoration/
 ├── .gitignore
 │
 ├── assets/
-│   ├── architecture.png
-│   └── demo.gif
+│   └── architecture.jpg
+│   
 │
 ├── configs/
 │   └── xlm_roberta.yaml
