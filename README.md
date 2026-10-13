@@ -61,7 +61,7 @@ The example above is created for demonstration and is not taken from the hackath
 ## Architecture
 
 <p align="center">
-  <img src="assets/architecture.png" width="850" alt="Kazakh punctuation restoration architecture">
+  <img src="assets/architecture.jpg" width="850" alt="Kazakh punctuation restoration architecture">
 </p>
 
 The core architecture combines a pretrained transformer encoder with a bidirectional LSTM and a token-level classification head.
