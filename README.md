@@ -391,14 +391,6 @@ python scripts/predict.py \
 
 Generated prediction files are ignored by Git.
 
-## Demo
-
-<p align="center">
-  <img src="assets/demo.gif" width="850" alt="Kazakh punctuation restoration demo">
-</p>
-
-The demo shows the inference pipeline restoring punctuation in unpunctuated Kazakh text.
-
 ## Development Notes
 
 The original hackathon training data were highly imbalanced, especially for the `QUESTION` class.
